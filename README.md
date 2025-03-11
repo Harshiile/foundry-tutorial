@@ -34,10 +34,7 @@ forge test
 ## **4️⃣ Deploying the Smart Contract**
 On local anvil testnet :
 ```sh
-forge script script/YourContract.sol \
---private-key <PRIVATE_KEY> \  
---sender <senderAdress> \
---broadcast 
+forge script script/YourContract.sol --private-key <PRIVATE_KEY> --sender <senderAdress> --broadcast 
 ```
 You will see a deployment success message with the **contract address**
 
